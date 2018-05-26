@@ -1,4 +1,4 @@
-./public/uploads
+public/uploads
 node_modules
  .idea
 readme.txt
