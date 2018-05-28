@@ -67,7 +67,7 @@ router.post('/create', (req, res) => {
         // let fileName = '';
         //placeholder
         
-        let fileName = 'placeholder-image.jpeg';
+        let fileName = '';
         if (!isEmpty(req.files)) {
 
             
