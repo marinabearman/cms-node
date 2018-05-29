@@ -42,8 +42,9 @@ router.post('/', (req, res) => {
 
             post.save().then(savedPost => {
                 newComment.save().then(savedComment => {
-                    req.flash('success_message', 'Your comment will be reviewed and displayed if approved.');
-                    res.redirect(`/post/${post.id}`);
+                    req.flash('success_message', 'Your afdsfcomment will be reviewed and displayed if approved.');
+                    // res.redirect(`/post/${post.id}`);
+                    res.redirect(`/post/${post.slug}`);
                 }).catch((err) => {
                     console.log(`newComment.save error: ${err}`);
                 });
