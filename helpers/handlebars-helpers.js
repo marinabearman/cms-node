@@ -56,7 +56,7 @@ module.exports = {
         }
 
         //last pages
-        if(options.hash.curren === options.hash.pages){
+        if(options.hash.current === options.hash.pages){
             output += `<li class="page-item disabled">
             <a class="page-link">Last</a>
         </li>`
